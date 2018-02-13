@@ -14,8 +14,9 @@ var greetingsEarthlings = { greeting, newGreeting, finalGreeting }
 //plus the value of the name parameter. 
 
 //Code here
-
-
+function greeting(name) {
+  return 'Hello, ' + name
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -24,6 +25,14 @@ var greetingsEarthlings = { greeting, newGreeting, finalGreeting }
 //Name it newGreeting
 
 //Code Here
+
+var newGreeting = function(name){
+  return "Hello, " + name
+}
+
+
+
+
 
 
 
@@ -35,6 +44,8 @@ var greetingsEarthlings = { greeting, newGreeting, finalGreeting }
 
 //Code Here
 
+let finalGreeting = name => `Hello, ${name}`
+
 
 
 
@@ -44,6 +55,8 @@ var greetingsEarthlings = { greeting, newGreeting, finalGreeting }
 //"apples", "milk", "eggs", "bread"
 
   //Code Here
+
+  var groceries = ["apples", "milk", "eggs", "bread"]
   
 
 
